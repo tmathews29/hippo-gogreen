@@ -1,0 +1,10 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/everywhere/customer:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [customers]
+      hipposys:role: customer
+    /hippo:configuration/hippo:domains/everywhere/staff:
+      jcr:primaryType: hipposys:authrole
+      hipposys:groups: [staff]
+      hipposys:role: staff
