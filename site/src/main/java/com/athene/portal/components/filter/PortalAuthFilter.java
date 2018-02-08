@@ -34,7 +34,7 @@ public class PortalAuthFilter extends GenericFilterBean {
     public void doFilter(ServletRequest sr, ServletResponse sr1, FilterChain fc) throws IOException, ServletException {
 	HttpServletRequest req = (HttpServletRequest) sr;
 	
-	List<GrantedAuthority> roles = new ArrayList<>();
+/*	List<GrantedAuthority> roles = new ArrayList<>();
 	//roles.add(new SimpleGrantedAuthority("ROLE_customer"));
 	roles.add(new SimpleGrantedAuthority("ROLE_customer"));
 	
@@ -56,13 +56,13 @@ public class PortalAuthFilter extends GenericFilterBean {
 	    fc.doFilter(sr, sr1);
 	    return;
 	}
-	/*
+	
 	Enumeration<String> headerNames = req.getHeaderNames();
 	while(headerNames.hasMoreElements()) {
 	String header = headerNames.nextElement();
 	System.out.println("DEBUG: Header: " + header + ": " + req.getHeader(header));
 	}
-	*/
+	
 	logger.info("No authentication object found");
 	Cookie[] cookies = req.getCookies();
 	
@@ -88,7 +88,7 @@ public class PortalAuthFilter extends GenericFilterBean {
 	    } catch (Exception ex) {
 		ex.printStackTrace();
 	    }
-	}
+	}*/
 	
 	fc.doFilter(sr, sr1);
     }
