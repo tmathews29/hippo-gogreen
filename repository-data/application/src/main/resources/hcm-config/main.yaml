@@ -32,7 +32,4 @@ definitions:
         type: string
         value: [previewusers]
     /hippo:configuration/hippo:domains/live-documents/readonly:
-      hipposys:groups:
-        operation: add
-        type: string
-        value: [liveusers]
+      hipposys:groups: [customers, liveusers, staff]

@@ -1,0 +1,4 @@
+definitions:
+  config:
+    /hippo:configuration/hippo:domains/defaultread/readonly:
+      hipposys:groups: [customers, everybody, staff]

@@ -38,7 +38,7 @@ public class PortalAuthFilter extends GenericFilterBean {
 	//roles.add(new SimpleGrantedAuthority("ROLE_customer"));
 	roles.add(new SimpleGrantedAuthority("ROLE_customer"));
 	
-	User userT = new User("AWankhede@athene.com", "", roles);
+	User userT = new User("jane", "Others29%", roles);
 	SecurityContextHolder.getContext().setAuthentication(new AbstractAuthenticationTokenImpl(roles, userT));
 	
 	Authentication authentication = SecurityContextHolder

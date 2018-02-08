@@ -1,4 +1,5 @@
 /content/documents/gogreen/value-lists:
+  .meta:order-before: staff
   jcr:primaryType: hippostd:folder
   jcr:mixinTypes: ['hippo:named', 'hippotranslation:translated', 'mix:versionable']
   jcr:uuid: 71904c87-69ce-407f-ae91-02ca7010d09a
@@ -6,23 +7,3 @@
   hippostd:foldertype: [new-translated-folder, new-document]
   hippotranslation:id: ac03c8c1-00f5-4807-9414-ada1c1f50898
   hippotranslation:locale: en
-  /access-levels:
-    jcr:primaryType: hippo:handle
-    jcr:mixinTypes: ['hippo:named', 'mix:referenceable']
-    jcr:uuid: 52c677d9-af36-435a-bf94-6e78ddc30562
-    hippo:name: access levels
-    /access-levels:
-      jcr:primaryType: selection:valuelist
-      jcr:mixinTypes: ['hippotranslation:translated', 'mix:referenceable']
-      jcr:uuid: 638dbed7-55a2-41e2-ae2c-a74ebab3e536
-      hippo:availability: [live, preview]
-      hippotranslation:id: 3a2a8c95-2f69-4bd7-b244-71ee447c57c7
-      hippotranslation:locale: en
-      /selection:listitem[1]:
-        jcr:primaryType: selection:listitem
-        selection:key: customer
-        selection:label: Customer
-      /selection:listitem[2]:
-        jcr:primaryType: selection:listitem
-        selection:key: staff
-        selection:label: Staff

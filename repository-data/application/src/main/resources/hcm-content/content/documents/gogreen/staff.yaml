@@ -1,0 +1,72 @@
+/content/documents/gogreen/staff:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippotranslation:translated', 'mix:versionable']
+  jcr:uuid: 58528c7a-fb2a-42ff-8c35-d5aecf41e0b7
+  hippostd:foldertype: [new-translated-folder, new-document]
+  hippotranslation:id: 2fec40e0-e6b1-4eef-91f0-5c41364dd93f
+  hippotranslation:locale: en
+  /staffdoc:
+    jcr:primaryType: hippo:handle
+    jcr:mixinTypes: ['mix:referenceable']
+    jcr:uuid: 965134ae-7ab8-4364-8602-d3b07dc3e9ba
+    /staffdoc[1]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: c7ccca58-d218-4ade-bd40-dced1a39004d
+      gogreen:accesslevel: []
+      gogreen:introduction: My doc staf
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: My doc
+      hippo:availability: []
+      hippo:related___pathreference: []
+      hippostd:state: draft
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-08T18:53:41.989+05:30
+      hippostdpubwf:lastModificationDate: 2018-02-08T18:53:41.989+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 173f24c3-e739-4590-9786-4585836e0bb4
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>My staf doc</p>
+    /staffdoc[2]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable', 'mix:versionable']
+      jcr:uuid: 87cd31b4-91b7-4f7d-b23c-eb8731aaf3f9
+      gogreen:accesslevel: []
+      gogreen:introduction: My doc staf
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: My doc
+      hippo:availability: [preview]
+      hippo:related___pathreference: []
+      hippostd:state: unpublished
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-08T18:53:41.989+05:30
+      hippostdpubwf:lastModificationDate: 2018-02-08T18:54:15.770+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippotranslation:id: 173f24c3-e739-4590-9786-4585836e0bb4
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>My staf doc</p>
+    /staffdoc[3]:
+      jcr:primaryType: gogreen:contentdocument
+      jcr:mixinTypes: ['mix:referenceable']
+      jcr:uuid: 25736f26-cadd-4444-8184-2855331123e1
+      gogreen:accesslevel: []
+      gogreen:introduction: My doc staf
+      gogreen:publicationdate: 0001-01-01T13:00:00+01:00
+      gogreen:title: My doc
+      hippo:availability: [live]
+      hippo:related___pathreference: []
+      hippostd:state: published
+      hippostdpubwf:createdBy: admin
+      hippostdpubwf:creationDate: 2018-02-08T18:53:41.989+05:30
+      hippostdpubwf:lastModificationDate: 2018-02-08T18:54:15.770+05:30
+      hippostdpubwf:lastModifiedBy: admin
+      hippostdpubwf:publicationDate: 2018-02-08T18:54:27.961+05:30
+      hippotranslation:id: 173f24c3-e739-4590-9786-4585836e0bb4
+      hippotranslation:locale: en
+      /gogreen:content:
+        jcr:primaryType: hippostd:html
+        hippostd:content: <p>My staf doc</p>
